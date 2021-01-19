@@ -29,9 +29,17 @@ class Main {
     System.out.println("Total: " + checktotal);
     //Above creates a variable to check the percentages match up to the number of M&Ms.
 
+    if (blue > brown && red > orange) {
+      System.out.println("Blue over Brown and Red over Orange.");
+    }
 
-    
+    if (brown <= green) {
+      System.out.println("Brown is less than or equal to Green.");
+    }
 
+    if ( total == checktotal){
+      System.out.println("Numbers match.");
+    }
 
   }
 }
