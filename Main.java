@@ -40,6 +40,5 @@ class Main {
     if ( total == checktotal){
       System.out.println("Numbers match.");
     }
-
   }
 }
